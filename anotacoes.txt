@@ -8,3 +8,14 @@ Teoria:
     - Set é uma interface, podemos personalizar um só colocar implements Set
     - Hash table é usado para o HashSet que é uma implementação do Set
     - Queue a posição da lista aponta para a próxima e para a anterior (aponta para o próximo), poll() => pega o primeiro valor e remove ele da fila, peek() => pega só o primeiro valor, remove() => remove o primeiro
+
+* Os Generics permite criar classe, métodos e interfaces que operam sobre tipos paremetrizados, exmeplo:
+    List<String> - indica o tipo dos elementos que fazem parte de uma lista, nesse caso é String
+
+* O tipo <NomeAleatorio> é do tipo genérico
+
+* O record é uma classe imutável (não podem alterar o valor) que seus valores não podem ser modificado e possui alguns métodos padrões (getters)
+
+* Um DTO (Data Transfer Objects) é quando eu recebo um dado que está sendo transferido
+
+* Os POJOs (plain old java Objects)

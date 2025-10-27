@@ -1,8 +1,9 @@
-import controllers.Animais;
+import controllers.Animal;
+import controllers.Publicacao;
 
 public class Main {
     public static void main(String[] args) {
-        Animais dog = new Animais("Lucky", "Dog");
+        Animal dog = new Animal("Lucky", "Dog");
 
         System.out.println(dog.getName());
 
@@ -22,5 +23,8 @@ public class Main {
         dog.addFilaAtendimento("Consulta de rotina");
         dog.addFilaAtendimento("Vacinação");
         System.out.println(dog.atenderProximo());
+
+        Publicacao pub = new Publicacao("Meu primeiro post", "Este é o conteúdo do meu primeiro post.");
+        System.out.println("Título: " + pub.titulo());
     }
 }

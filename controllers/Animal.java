@@ -9,7 +9,7 @@ import java.util.Map;
 import java.util.Queue;
 import java.util.Set;
 
-public class Animais {
+public class Animal {
     
     String name;
     String type;
@@ -18,7 +18,7 @@ public class Animais {
     Map<String, String> dadosAdicionais = new HashMap<>();
     Queue<String> filaAtendimento = new LinkedList<>();
 
-    public Animais(String name, String type) {
+    public Animal(String name, String type) {
         this.name = name;
         this.type = type;
     }
