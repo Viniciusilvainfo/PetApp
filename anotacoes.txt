@@ -21,3 +21,4 @@ Teoria:
 * Os POJOs (plain old java Objects) objetos normais do java
 
 * A Stream API (pegada de programação funcional), realizar operações funcionais nas collections (estrutura de dados), filter, map, reduce, agregacoes...
+    - stream() para transformar em um stream, mas será necessário retransformar para o tipo correspondente, exmeplo .toList()

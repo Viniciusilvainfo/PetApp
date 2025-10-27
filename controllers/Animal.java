@@ -62,4 +62,10 @@ public class Animal {
     public String atenderProximo() {
         return filaAtendimento.poll();
     }
+
+    public void obtemrVacinas() {
+        vacinas.stream().forEach(v -> {
+            System.out.println(v);
+        });
+    }
 }
