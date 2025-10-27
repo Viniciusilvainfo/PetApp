@@ -1,0 +1,10 @@
+Teoria:
+
+* O protected vai dar acesso a métodos de uma classe para clasees que herdam da classe principal, mesmo que não estejam no memso package, comportamente que o private não faz.
+
+* Java collections (framework) exporta conjunto de classes e interfaces que facilitam a manipulação de dados, principais métodos:
+    - Precisam ser importados do java.util
+    - Map (chave e valor), Set (não permite elementos duplicados), List (lista ordenada com elementos duplicados) e Queue (filas, processamento em ordem)
+    - Set é uma interface, podemos personalizar um só colocar implements Set
+    - Hash table é usado para o HashSet que é uma implementação do Set
+    - Queue a posição da lista aponta para a próxima e para a anterior (aponta para o próximo), poll() => pega o primeiro valor e remove ele da fila, peek() => pega só o primeiro valor, remove() => remove o primeiro
