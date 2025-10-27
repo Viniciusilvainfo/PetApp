@@ -26,5 +26,7 @@ public class Main {
 
         Publicacao pub = new Publicacao("Meu primeiro post", "Este é o conteúdo do meu primeiro post.");
         System.out.println("Título: " + pub.titulo());
+
+        
     }
 }

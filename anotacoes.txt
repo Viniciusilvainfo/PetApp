@@ -18,4 +18,6 @@ Teoria:
 
 * Um DTO (Data Transfer Objects) é quando eu recebo um dado que está sendo transferido
 
-* Os POJOs (plain old java Objects)
+* Os POJOs (plain old java Objects) objetos normais do java
+
+* A Stream API (pegada de programação funcional), realizar operações funcionais nas collections (estrutura de dados), filter, map, reduce, agregacoes...
